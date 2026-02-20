@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans 
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- bean definitions here -->
+    
+    <!-- scope="prototype" written is optional it is not mandatory but by default is prototype scope 
+    It is use to provide different object reference-->
+	<bean id="stdObj" class="in.sp.beans.Student" scope="prototype">
+		<property name="name" value="aryan"/>
+		<property name="rollno" value="1111"/>
+	</bean>
+</beans>

@@ -1,0 +1,8 @@
+com.qsp/
+.metadata/
+bin/
+target/
+.settings/
+.project
+.classpath
+target/

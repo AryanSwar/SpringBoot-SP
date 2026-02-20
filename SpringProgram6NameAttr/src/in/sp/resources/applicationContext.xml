@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans 
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- bean definitions here -->
+    <!--change id to name-->
+    <!--  
+    <bean name="stdObj1,stdObj2" class="in.sp.beans.Student"> 	
+    	<property name="name" value="rahul"/>
+    	<property name="rollno" value="1342"/>
+    </bean> 
+    -->
+    <!--  
+    <bean name="stdObj1 stdObj2" class="in.sp.beans.Student"> 	
+    	<property name="name" value="rahul"/>
+    	<property name="rollno" value="1342"/>
+    </bean>
+	-->
+	
+	<!--  
+	<bean name="stdObj1;stdObj2" class="in.sp.beans.Student"> 	
+    	<property name="name" value="rahul"/>
+    	<property name="rollno" value="1342"/>
+    </bean>
+    -->
+    
+    <!--  
+    <bean name="stdObj1" id="stdObj1" class="in.sp.beans.Student"> 	
+    	<property name="name" value="rahul"/>
+    	<property name="rollno" value="1342"/>
+    </bean>
+    -->
+    <!--  
+    <bean name="stdObj1,stdObj1" class="in.sp.beans.Student"> 	
+    	<property name="name" value="rahul"/>
+    	<property name="rollno" value="1342"/>
+    </bean>
+    -->
+    
+    <!-- we can't provide the same name in multiple bean object 
+    <bean name="stdObj1" class="in.sp.beans.Student"> 	
+    	<property name="name" value="rahul"/>
+    	<property name="rollno" value="1342"/>
+    </bean>
+    
+    <bean name="stdObj1" class="in.sp.beans.Student"> 	
+    	<property name="name" value="aryan"/>
+    	<property name="rollno" value="1234"/>
+    </bean>
+    -->
+    
+    <bean name="stdObj1" class="in.sp.beans.Student"> 	
+    	<property name="name" value="rahul"/>
+    	<property name="rollno" value="1342"/>
+    </bean>
+    
+</beans>

@@ -1,0 +1,23 @@
+package in.sp.main;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import in.sp.beans.Employee;
+import in.sp.beans.Student;
+
+public class Main {
+	public static void main(String[] args) {
+		ApplicationContext context = new ClassPathXmlApplicationContext("/in/sp/resources/stdAppContext.xml","/in/sp/resources/empAppContext.xml");
+		
+		Student student = (Student) context.getBean("stdObj");
+		
+		student.display();
+		
+		System.out.println("-------------------");
+		
+		Employee employee = (Employee) context.getBean("empObj");
+		
+		employee.display();
+	}
+}
