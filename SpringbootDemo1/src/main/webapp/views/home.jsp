@@ -7,8 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<h2>Contact Us</h2>
-	<h2>Name : Aryan Swarnakar</h2>
-	<h2>Mobile no : +911234567987</h2>
+	<h3>This is home page....!!</h3>
 </body>
 </html>
